@@ -21,7 +21,7 @@
 }
 
 .home-social-icon:hover {
-    color: var(--title-color-dark);
+    color: var(--primary-color);
 }
 
 .home-title {
