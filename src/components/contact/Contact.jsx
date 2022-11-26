@@ -30,7 +30,7 @@ const Contact = () => {
                         <span className="contact-card-data">faver_i@hotmail.com</span>
 
                         <a href="mailto:faver_i@hotmail.com" className="contact-button">
-                            Write me{" "}
+                            Envie{" "}
                             <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                         </a>
                     </div>
@@ -42,7 +42,7 @@ const Contact = () => {
                         <span className="contact-card-data">(11) 95242-7722</span>
 
                         <a href="https://wa.me/5511952427722" className="contact-button">
-                            Write me{" "}
+                            Converse{" "}
                             <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                         </a>
                     </div>
@@ -54,7 +54,7 @@ const Contact = () => {
                         <span className="contact-card-data">leonardo.defaver.9</span>
 
                         <a href="https://m.me/leonardo.defaveri.9" className="contact-button">
-                            Write me{" "}
+                            Converse{" "}
                             <i className="bx bx-right-arrow-alt contact-button-icon"></i>
                         </a>
                     </div>
@@ -85,13 +85,13 @@ const Contact = () => {
                         />
                     </div>
                     <div className="contact-form-div contact-form-area">
-                        <label className="contact-form-tag">Projeto</label>
-                        <textarea id="projeto" name="projeto" cols="30" rows="10"
+                        <label className="contact-form-tag">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" cols="30" rows="10"
                         className='contact-form-input'
-                        placeholder='Escreva seu projeto...'></textarea>
+                        placeholder='Escreva sua mensagem...'></textarea>
                         <ValidationError 
-                        prefix="Projeto" 
-                        field="projeto"
+                        prefix="Mensagem" 
+                        field="mensagem"
                         errors={state.errors}
                         />
                     </div>
