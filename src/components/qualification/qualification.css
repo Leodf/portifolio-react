@@ -17,7 +17,7 @@
 }
 
 .qualification-button:hover {
-    color: var(--title-color-dark);
+    color: var(--primary-color-dark);
 }
 
 .qualification-icon {
@@ -26,7 +26,7 @@
 }
 
 .qualification-active {
-    color: var(--title-color-dark);
+    color: var(--primary-color);
 }
 
 .qualification-sections {
@@ -68,7 +68,7 @@
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--text-color);
+    background-color: var(--primary-color);
     border-radius: 50%;
 }
 
@@ -76,7 +76,7 @@
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--text-color);
+    background-color: var(--primary-color);
     transform: translate(6px, -7px);
 
 }
