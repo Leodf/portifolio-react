@@ -26,7 +26,7 @@ const Header = () => {
                     
                     <li className="nav-item">
                         <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'nav-link active-link' : 'nav-link'}>
-                            <i className="uil uil-user nav-icon"></i> About
+                            <i className="uil uil-user nav-icon"></i> Sobre
                         </a>
                     </li>
 
@@ -37,7 +37,7 @@ const Header = () => {
                     </li>
                     <li className="nav-item">
                         <a href="#services" onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'nav-link active-link' : 'nav-link'}>
-                            <i className="uil uil-briefcase-alt nav-icon"></i> Services
+                            <i className="uil uil-briefcase-alt nav-icon"></i> Serviços
                         </a>
                     </li>
 
@@ -49,7 +49,7 @@ const Header = () => {
 
                     <li className="nav-item">
                         <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'nav-link active-link' : 'nav-link'}>
-                            <i className="uil uil-message nav-icon"></i> Contact
+                            <i className="uil uil-message nav-icon"></i> Contato
                         </a>
                     </li>
 
