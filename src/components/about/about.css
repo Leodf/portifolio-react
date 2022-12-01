@@ -45,8 +45,8 @@
 }
 
 /* =========== BREAKPOINTS =========== */
-  /* For large devices */
-  @media screen and (max-width: 992px) {
+/* For large devices */
+@media screen and (max-width: 992px) {
     .about-container {
         grid-template-columns: 1fr;
         row-gap: 2.5rem;
@@ -72,9 +72,9 @@
         padding: 0 5rem;
         margin-bottom: 2rem;
     }
-  }
-  
-  @media screen and (max-width: 576px) {
+}
+
+@media screen and (max-width: 576px) {
     .about-info {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -82,13 +82,12 @@
     .about-description {
         padding: 0;
     }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
     .about-info {
         grid-template-columns: repeat(2, 1fr);
     }
 
-
-  }
+}
