@@ -17,6 +17,10 @@
     margin-bottom: var(--mb-2);
 }
 
+.footer-title > span {
+    color: var(--primary-color);
+}
+
 .footer-link:hover {
     color: var(--title-color-dark);
 }

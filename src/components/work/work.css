@@ -22,7 +22,7 @@
 
 .work-container {
     grid-template-columns: repeat(3, max-content);
-    gap: 3rem;
+    gap: 1.5rem;
     justify-content: center;
 }
 

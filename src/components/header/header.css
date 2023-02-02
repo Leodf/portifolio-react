@@ -21,6 +21,10 @@
     font-weight: var(--font-medium);
 }
 
+.nav-logo > span {
+    color: var(--primary-color);
+}
+
 .nav-list {
     display: flex;
     column-gap: 2rem;

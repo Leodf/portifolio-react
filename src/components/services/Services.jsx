@@ -9,17 +9,17 @@ const Services = () => {
   }
   return (
     <section className="services section" id="services">
-      <h2 className="section-title">Services</h2>
+      <h2 className="section-title">Serviços</h2>
       <span className="section-subtitle">O que ofereço</span>
 
       <div className="services-container container grid">
         <div className="services-content">
           <div>
             <i className="uil uil-web-grid services-icon"></i>
-            <h3 className="services-title">Product <br /> Designer</h3>
+            <h3 className="services-title">Desenvolvimento <br /> Frontend</h3>
           </div>
 
-          <span className="services-button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right services-button-icon"></i></span>
+          <span className="services-button" onClick={() => toggleTab(1)}>Veja mais <i className="uil uil-arrow-right services-button-icon"></i></span>
 
           <div className={toggleState === 1 ? "services-modal active-modal" : "services-modal"}>
             <div className="services-modal-content">
@@ -72,10 +72,10 @@ const Services = () => {
         <div className="services-content">
           <div>
             <i className="uil uil-arrow services-icon"></i>
-            <h3 className="services-title">Ui/Ux <br /> Designer</h3>
+            <h3 className="services-title">Desenvolvimento <br /> Backend</h3>
           </div>
 
-          <span className="services-button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right services-button-icon"></i></span>
+          <span className="services-button" onClick={() => toggleTab(2)}>Veja mais <i className="uil uil-arrow-right services-button-icon"></i></span>
 
           <div className={toggleState === 2 ? "services-modal active-modal" : "services-modal"}>
             <div className="services-modal-content">
@@ -128,10 +128,10 @@ const Services = () => {
         <div className="services-content">
           <div>
             <i className="uil uil-edit services-icon"></i>
-            <h3 className="services-title">Visual <br /> Designer</h3>
+            <h3 className="services-title">Projetos <br /> Engenharia</h3>
           </div>
 
-          <span className="services-button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right services-button-icon"></i></span>
+          <span className="services-button" onClick={() => toggleTab(3)}>Veja mais <i className="uil uil-arrow-right services-button-icon"></i></span>
 
           <div className={toggleState === 3 ? "services-modal active-modal" : "services-modal"}>
             <div className="services-modal-content">
